@@ -25,7 +25,7 @@ function MyComponent() {
     const handleSellClick = () => {
         //generate a new row object with a random buy and sell values
         const newRows = [...rows, {size: Math.random(), price: 3700 + Math.random() * 2000, color: 'red'}];
-        // Update the rows state with the new row object
+        // Update the rows state with the new row object.
         setRows(newRows);
     };
     return (
